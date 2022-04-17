@@ -1,0 +1,161 @@
+body {
+ margin: 0;
+}
+
+
+.section {
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+  background-color: pink;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.headerlogo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.topright{
+  padding-bottom: 100px;
+  width: 450px;
+}
+
+.topleft img {
+  flex: 1;
+  object-fit:cover;
+  max-height: calc(214px + 1rem);
+  border-radius: 7px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.secondheader {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pictures {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 10px;
+}
+
+.pictures img{
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.picture1, .picture2, .picture3, .picture4 {
+  flex-direction: column;
+  display: flex;
+  max-width: 200px;
+}
+
+
+.third {
+  text-align:center;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.thirdwidth {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom:50px;
+}
+
+.quote {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  color: white;
+
+
+}
+
+.me {
+  padding-left: 900px;
+  flex-basis:200px;
+}
+
+
+.fourth {
+  display:flex;
+  justify-content: center;
+  margin: 0;
+  padding: 50px 100px;
+}
+
+
+
+.container {
+  background-color: #3882F6;
+  color: white;
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 600px;
+}
+
+.container-left p {
+  color: white;
+  margin: 0px;
+}
+
+.text {
+  margin: 0;
+}
+
+.container-right button {
+  color:white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px 20px;
+  border-radius: 8px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: pink;
+  color: white;
+  padding: 20px;
+}
